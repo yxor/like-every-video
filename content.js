@@ -52,5 +52,10 @@ const observer = new MutationObserver(async (mutations, observer) => {
     await likeCallback();
 });
 
+window.onload = async () => {
+  if(enabled)
+    await likeCallback();
+};
+
 // Start observing the title changes
 observer.observe(target, config);
