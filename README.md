@@ -1,4 +1,4 @@
-<div style="text-align:center"><img src="assets/social.png"/></div
+<div style="text-align:center"><img src="assets/social.png"/></div>
 
 # Like Every Video
 
