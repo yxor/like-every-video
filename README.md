@@ -8,5 +8,5 @@ This extension is made for people that are too lazy or too forgetful to like eve
 
 ## Get the Add-on
 
-This add-on is currently available for (firefox)[https://addons.mozilla.org/en-US/firefox/addon/like-every-video/].
+This add-on is currently available for [firefox](https://addons.mozilla.org/en-US/firefox/addon/like-every-video/).
 Support for other browsers is coming soon.
