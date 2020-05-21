@@ -1,6 +1,6 @@
-# Like Every Video
-
 <div style="text-align:center"><img src="assets/social.png"/></div
+
+# Like Every Video
 
 Like Every Video is a browser extension that defaults to liking every YouTube video watched
 to support content creators.
