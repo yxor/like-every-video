@@ -1,7 +1,11 @@
 const likeCallback = async() => {
   // main controller, checks if youtube is open and if it is and the video is not liked 
   // or dislike already it likes it.
-    
+  
+  // if were not in a video page there is no need to wait for the like button
+  if(!window.location.href.includes("watch"))
+    return;
+
   // wait for like and dislike buttons to show
   const waitFor = (selector, interval) => {
     return new Promise((res, rej) => {
