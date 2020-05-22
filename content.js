@@ -36,7 +36,8 @@ const likeCallback = async() => {
 }
 
 let enabled = true;
-browser.storage.sync.get("enabled", (state) => {
+
+browser.storage.local.get("enabled", (state) => {
   enabled = state.enabled;
 });
 
